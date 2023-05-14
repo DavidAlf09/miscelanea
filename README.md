@@ -19,7 +19,6 @@ y que ingreso la cantidad de productos que va a llevar el cliente
 Caso de uso:
 
 
-
 Aproximación Diagrama de flujo:
 
 
