@@ -22,36 +22,68 @@ La aplicacion no almacena datos de usuario, solo da el total a pagar.
 
 # Pseudocódigo:
 Inicio:
+
 Escribir "Bienvenid@ a nuestra miscelanea"
+
 Escribir "Estos son algunos de nuestros principales productos"
+
 productosM = {"1. Cartulina", "2. Papel contact", "3. Lapiz", "4. Esfero", "5. Tajalapiz"}
+
 preciosM = {500, 2500, 1200, 1800, 1000}
-cantidad = [0, 0, 0, 0, 0, 0, ..., 0] (un arreglo de 50 elementos inicializados en 0)
-scanner = new Scanner(System.in)
+
+cantidad = [50] 
+
 Para i desde 0 hasta longitud(productosM)-1
+
    Escribir productosM[i] + " - $" + preciosM[i]
+   
 Fin Para
+
 Escribir "Digite el numero del producto que desea llevar // Pulse 0 para cancelar compra"
+
 opcion = scanner.nextInt()
+
 Mientras opcion != 0
+
 Si opcion < 1 o opcion > 5
+
  Escribir "Lo sentimos, no tenemos ese producto en el momento."
+ 
  Escribir "Digite el numero del producto que desea llevar // Pulse 0 para cancelar compra"
+ 
  opcion = scanner.nextInt()
+ 
  Continuar mientras
+ 
 Fin Si
+
 Escribir "Ingrese la cantidad que desea comprar: "
+
 cantidadT = scanner.nextInt()
+
 cantidad[opcion - 1] += cantidadT
+
 Escribir "Si desea llevar mas productos, digite el numero del producto que desea llevar // Pulse 0 para generar su factura: "
+
 opcion = scanner.nextInt()
+
 Fin Mientras
+
 total = 0
+
 Para i desde 0 hasta longitud(productosM)-1
+
  Si cantidad[i] > 0
+ 
   Escribir productosM[i] + " x " + cantidad[i] + "  $" + (preciosM[i] * cantidad[i])
+  
   total += preciosM[i] * cantidad[i]
+  
   Fin Si
+  
  Fin Para
+ 
 Escribir "El total de su compra es: $" + total
+
 Fin
+
