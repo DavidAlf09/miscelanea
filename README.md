@@ -12,7 +12,8 @@ La aplicacion no almacena datos de usuario, solo da el total a pagar.
 ![image](https://github.com/DavidAlf09/miscelanea/assets/133126275/480bcd97-2dee-4cac-a3df-87ea8a9b43f9)
 
 # Caso de uso:
-![image](https://github.com/DavidAlf09/miscelanea/assets/133126275/61237a80-a0f0-40d2-9d97-9d67db0eec83)
+
+![Caso de uso MiscelaneaDA](https://github.com/DavidAlf09/miscelanea/assets/133126275/87a34262-dd88-4f15-8a0e-5087523b5f60)
 
 
 # Diagrama de flujo:
