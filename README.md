@@ -7,7 +7,11 @@ Un dueño de una miscelánea requiere de un programa que permita colocar en base
 Aclaraciones:
 La aplicacion se puede usar para que un unico cliente compre varios productos de la tienda.
 La aplicacion no almacena datos de usuario, solo da el total a pagar.
-# Análisis de ejercicio:
+
+# Historia de usuario
+![image](https://github.com/DavidAlf09/miscelanea/assets/133126275/480bcd97-2dee-4cac-a3df-87ea8a9b43f9)
+
+# Caso de uso
 
 
 
