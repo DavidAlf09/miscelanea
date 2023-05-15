@@ -8,10 +8,11 @@ Aclaraciones:
 La aplicacion se puede usar para que un unico cliente compre varios productos de la tienda.
 La aplicacion no almacena datos de usuario, solo da el total a pagar.
 
-# Historia de usuario
+# Historia de usuario:
 ![image](https://github.com/DavidAlf09/miscelanea/assets/133126275/480bcd97-2dee-4cac-a3df-87ea8a9b43f9)
 
-# Caso de uso
+# Caso de uso:
+![image](https://github.com/DavidAlf09/miscelanea/assets/133126275/61237a80-a0f0-40d2-9d97-9d67db0eec83)
 
 
 
